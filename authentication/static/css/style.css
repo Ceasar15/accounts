@@ -1,0 +1,74 @@
+/*Body*/
+body{
+    /*background: linear-gradient(180deg, #0C003C 0%, #BFFFAF 100%),*/
+    /*linear-gradient(165deg, #480045 25%, #E9EAAF 100%),*/
+    /*linear-gradient(145deg, #480045 25%, #E9EAAF 100%),*/
+    /*linear-gradient(300deg, rgba(233, 223, 255, 0) 0%, #AF89FF 100%),*/
+    /*linear-gradient(90deg, #45EBA5 0%, #45EBA5 30%, #21ABA5 30%, #21ABA5 60%, #1d566e 60%, #1D566E 70%, #163A5F 70%, #163A5F 100%);*/
+    /*background-blend-mode: overlay, overlay, overlay, multiply, normal;*/
+    line-height: 1.7;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: -apple-system, "Work Sans", BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+h2.loginHeader{
+    text-align: center;
+    width: 100%;
+}
+.loginDiv {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    /* Center form on page horizontally & vertically */
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+}
+/*Forms*/
+.formLogin {
+    width: 300px;
+    height: 300px;
+    background: #ffffff;
+    border-radius: 15px;
+    margin: 0;
+    padding: 40px;
+    font-style: italic;
+}
+
+/*Input*/
+input[type='password']{
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    background: palegoldenrod;
+}
+input[type='text']{
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    background: palegoldenrod;
+}
+
+/*Button*/
+.button{
+    background: #291a48;
+    color: white;
+    border-style: outset;
+    border-color: #b709ca;
+    height: 50px;
+    width: 100px;
+    font: bold 15px arial, sans-serif;
+    border-radius: 25px
+}
+button:hover {
+    background: #b00bec;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #cfa7dd;
+    text-shadow: none;
+}
+label {
+    display: none;
+}

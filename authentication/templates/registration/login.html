@@ -1,11 +1,15 @@
 {% extends 'base.html'%}
 {% block title %}Login{% endblock %}
+{% load static %}
 
 {% block content %}
-<h2>Login Page</h2>
-<form method="post">
-    {% csrf_token%}
-    {{ form.as_p}}
-    <button type="submit">Login</button>
-</form>
+
+<div class="loginDiv">
+        <form method="post" class="formLogin" style="background-image: url({% static 'images/Sea Blizz.jpg'%});">
+            <h2 class="loginHeader">Login</h2>
+            {% csrf_token%}
+            {{ form.as_p}}
+            <button class="button" type="submit">Login</button>
+        </form>
+</div>
 {% endblock %}
